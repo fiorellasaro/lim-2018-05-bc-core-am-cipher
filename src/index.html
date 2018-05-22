@@ -9,5 +9,23 @@
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    
+    <h1>¡Cifrado César!</h1>
+
+    <p>Escriba su mensaje: </p>
+    <input type= “text” name="CipherBoxText">
+    <br/>
+    <p>Offset (valor de N): </p>
+    <input type= “text” name="OffSet">
+ 
+    <input id='button' type='button' value='Cifrar' onclick='cipher.encode()'>
+    <input id='button' type='button' value='Descifrar' onclick='cipher.decode()'>
+    <br/>
+    <p>Texto: </p>
+    <input type= “text” name="TextResult">
+                
+    
+
+
   </body>
 </html>
