@@ -11,5 +11,5 @@
     "globals": {
       "assert": false,
       "cipher": false
-  },
+  }
 }
