@@ -1,11 +1,43 @@
-let texto = document.getElementsByName('CipherBoxText')[0];
-alert(texto); 
-let nOffSet1 = document.getElementsByClassName('nValue')[0]; //Variable que contendrá el Offset, el valor de N, el cual indica el usuario
+/*let texto = document.getElementsByClassName('TextToCipherOrDecipher')[0].value;
+let nOffSetUser = document.getElementsByClassName('nValue')[0].value; //Variable que contendrá el Offset, el valor de N, el cual indica el usuario
+parseInt(nOffSetUser); */
 
-parseInt(nOffSet1);
 
-document.getElementsByClassName('buttonCipher').addEventListener('click', cipher.encode(texto,nOffSet1));
-document.getElementsByClassName('buttonDecipher').addEventListener('click', cipher.decode(texto,nOffSet1));
+let texto;
+let nOffSetUser;
+
+document.getElementById("buttonCipher").addEventListener("click", ShowResultsEncode);
+let capturarDatos = () => {
+    texto = document.getElementById("TextToCipherOrDecipher").value;
+    nOffSetUser = document.getElementById("nValue").value; //Variable que contendrá el Offset, el valor de N, el cual indica el usuario    
+    parseInt(nOffSetUser);
+    alert(texto + nOffSetUser);
+}
+
+let ShowResultsEncode = () => {
+    
+    capturarDatos();
+    cipher.encode(texto, nOffSetUser);
+
+
+}
+/*
+let ShowResultsDecode = () => {
+    
+    capturarDatos ();
+    cipher.decode(texto, nOffSetUser);
+
+
+} */
+
+
+
+/* botnDecifrado = document.getElementById('buttonDecipher');
+botonDecifrado = addEventListener('click', cipher.decode(texto,nOffSetUser));*/
+
+
+
+
 
 
 
