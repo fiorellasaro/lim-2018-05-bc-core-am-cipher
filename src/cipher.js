@@ -34,14 +34,14 @@ window.cipher = {
     while ( text.length !== charCounter){
       numberAscii = text.charCodeAt(indice);
       if(numberAscii>=65 && numberAscii<=90){
-        if((numberAscii - 65 - nOffSet)>=0){
+        if((numberAscii - 65 - nOffSet)>=0 (numberAscii - 65 - nOffSet)== -nOffSet){
           letterAscii = String.fromCharCode((numberAscii - 65 - nOffSet)%26 +65);
         }else{
           letterAscii = String.fromCharCode((numberAscii - 65 - nOffSet)%26 +91);
         }
       }else {
           if(numberAscii>=97 && numberAscii<=122){
-            if((numberAscii - 97 - nOffSet)>=0 || (numberAscii - 97 - nOffSet)== -nOffSet ){
+            if((numberAscii - 97 - nOffSet)>=0 || (numberAscii - 97 - nOffSet) == -nOffSet ){
               letterAscii = String.fromCharCode((numberAscii - 97 - nOffSet)%26 +97);
             }else{
               letterAscii = String.fromCharCode((numberAscii - 97 - nOffSet)%26 +123);
