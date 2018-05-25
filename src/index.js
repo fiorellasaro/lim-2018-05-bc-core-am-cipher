@@ -10,21 +10,15 @@ let capturarDatos = () => {
     numberN = parseInt(nOffSetUser);
 } 
 
-let ShowResultsEncode = () => {
-    
+let ShowResultsEncode = () => {   
     capturarDatos();
     cipher.encode(texto, numberN);
-
-
 }
 
 
-let ShowResultsDecode = () => {
-    
+let ShowResultsDecode = () => {   
     capturarDatos ();
     cipher.decode(texto, numberN);
-
-
 }
    
 
