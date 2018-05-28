@@ -7,23 +7,36 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <div id='titleAndDescription'>
+      <h1>¡Cifrado César!</h1>
+      <p>Aplicación creada para poder comunicarnos secretamente sobre la fiesta sorpresa para Andrea </p>
+    </div>
+   
+    <div id ='TextToConvert'>
+      <p>¡Escribe el mensaje!: </p>
+      <input type= "text" name="CipherBoxText" id="TextToCipherOrDecipher">  
+    </div>
+    <br/>
+
+    <div id='buttonsAndOffset'>
+     <p>Offset (valor de N): </p>
+     <input  type= "number" name="OffSet" id="nValue" min="1" value="1">
+     <br/>
+     <br/>
+
+     <button id="buttonCipher">Cifrar</button>   
+     <br/>
+     <br/>
+     <button id="buttonDecipher">Decifrar</button> 
+    </div>  
+    <br/>
     
-    <h1>¡Cifrado César!</h1>
-    <p>Aplicación creada para poder comunicarnos secretamente sobre la fiesta sorpresa para Andrea </p>
-    <p>¡Escribe el mensaje!: </p>
-    <input type= "text" name="CipherBoxText" id="TextToCipherOrDecipher">
-    <br/>
-    <p>Offset (valor de N): </p>
-    <input  type= "number" name="OffSet" id="nValue" min="1">
-    <br/>
-    <br/>
-
-    <button id="buttonCipher">Cifrar</button>   
-    <button id="buttonDecipher">Decifrar</button> 
-    <br/>
-    <p>Texto: </p>
-    <input type= "text" id= "TextoAMostrar" name="TextResult" >
-
+    <div id='textResults'>
+      <p>Texto: </p>
+      <p id= "TextoAMostrar"> </p>
+    </div>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
                 

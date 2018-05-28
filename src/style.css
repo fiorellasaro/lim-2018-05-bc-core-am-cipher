@@ -1,0 +1,52 @@
+#titleAndDescription {
+    text-align:center;
+    font-size: 18px;
+    
+}
+
+#TextToConvert {
+    font-size: 25px;
+    position: relative;
+    left: 300px;
+}
+
+#TextToCipherOrDecipher {
+    position: relative;
+    height: 200px;
+    width: 200px; 
+    text-align: initial;
+}
+
+
+#buttonsAndOffset {
+    text-align:center;
+    position: relative;  
+    font-size: 20px;
+    bottom: 250px;  
+}
+
+#buttonCipher {
+    font-size: 25px; 
+}
+
+#buttonDecipher {
+    font-size: 25px;
+     
+}
+
+#nValue {
+    font-size: 25px;
+    height: 30px;
+    width: 30px; 
+    position: relative;
+    bottom: 10px;
+
+}
+
+#textResults {
+    position: relative;
+    left: 900px;
+    bottom: 530px;
+    font-size: 25px;
+    
+}

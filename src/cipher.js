@@ -31,7 +31,8 @@ window.cipher = {
       charCounter ++;
       indice ++;
     }
-    return document.getElementById("TextoAMostrar").value = letterInicial;
+    const resultado = document.getElementById("TextoAMostrar").innerText = letterInicial;
+    return resultado;
     },
 
   decode: (text, nOffSet) => {
@@ -65,6 +66,7 @@ window.cipher = {
       charCounter ++;
       indice ++;
     }
-    return document.getElementById("TextoAMostrar").value = letterInicial;
+    const resultado = document.getElementById("TextoAMostrar").innerText = letterInicial;
+    return resultado;
   }
 };
