@@ -31,7 +31,7 @@ window.cipher = {
       charCounter ++;
       indice ++;
     }
-    const resultado = document.getElementById("TextoAMostrar").innerText = letterInicial;
+    const resultado = document.getElementById('TextoAMostrar').innerText = letterInicial;
     return resultado;
     },
 
@@ -66,7 +66,7 @@ window.cipher = {
       charCounter ++;
       indice ++;
     }
-    const resultado = document.getElementById("TextoAMostrar").innerText = letterInicial;
+    const resultado = document.getElementById('TextoAMostrar').innerText = letterInicial;
     return resultado;
   }
 };

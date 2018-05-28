@@ -35,10 +35,11 @@
 }
 
 #nValue {
+    text-align:center;
     font-size: 25px;
     height: 30px;
-    width: 30px; 
-    position: relative;
+    width: 60px; 
+    position: center;
     bottom: 10px;
 
 }
@@ -46,7 +47,7 @@
 #textResults {
     position: relative;
     left: 900px;
-    bottom: 530px;
+    bottom: 540px;
     font-size: 25px;
     
 }

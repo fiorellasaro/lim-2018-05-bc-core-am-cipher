@@ -5,8 +5,8 @@ let numberN;
 
 
 let capturarDatos = () => {
-    texto = document.getElementById("TextToCipherOrDecipher").value;
-    nOffSetUser = document.getElementById("nValue").value; //Variable que contendrá el Offset, el valor de N, el cual indica el usuario    
+    texto = document.getElementById('TextToCipherOrDecipher').value;
+    nOffSetUser = document.getElementById('nValue').value; //Variable que contendrá el Offset, el valor de N, el cual indica el usuario    
     numberN = parseInt(nOffSetUser);
 } 
 
@@ -22,8 +22,8 @@ let ShowResultsDecode = () => {
 }
    
 
-document.getElementById("buttonCipher").addEventListener("click", ShowResultsEncode);
-document.getElementById("buttonDecipher").addEventListener("click", ShowResultsDecode);
+document.getElementById('buttonCipher').addEventListener('click', ShowResultsEncode);
+document.getElementById('buttonDecipher').addEventListener('click', ShowResultsDecode);
 
 
 
