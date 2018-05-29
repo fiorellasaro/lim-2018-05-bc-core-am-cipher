@@ -12,13 +12,13 @@ let capturarDatos = () => {
 
 let ShowResultsEncode = () => {   
     capturarDatos();
-    cipher.encode(texto, numberN);
+    document.getElementById('TextoAMostrar').innerText = cipher.encode(numberN, texto);
 }
 
 
 let ShowResultsDecode = () => {   
     capturarDatos ();
-    cipher.decode(texto, numberN);
+    document.getElementById('TextoAMostrar').innerText = cipher.decode(numberN, texto);
 }
    
 

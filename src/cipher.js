@@ -1,6 +1,6 @@
 window.cipher = {
 
-  encode: (text, nOffSet) => {
+  encode: (nOffSet, text) => {
     let letterInicial= ''; //Variable tipo string que almacenara el texto codificado
     let letterAscii; //variable que almacenara la letra que provenia de su numero ascii
     let numberAscii; //variable que contendrá el numero ascii que le corresponde a cada caracter del texto a codificar
@@ -31,11 +31,11 @@ window.cipher = {
       charCounter ++;
       indice ++;
     }
-    const resultado = document.getElementById('TextoAMostrar').innerText = letterInicial;
-    return resultado;
+    
+    return letterInicial;
     },
 
-  decode: (text, nOffSet) => {
+  decode: (nOffSet, text) => {
     let letterInicial= ''; 
     let letterAscii; 
     let numberAscii; 
@@ -66,7 +66,6 @@ window.cipher = {
       charCounter ++;
       indice ++;
     }
-    const resultado = document.getElementById('TextoAMostrar').innerText = letterInicial;
-    return resultado;
+    return letterInicial;
   }
 };

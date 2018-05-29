@@ -3,6 +3,11 @@ body{
     width: 800px;
 }
 
+#global {
+    position: center;
+    border: 5px dotted;
+}
+
 #titleAndDescription {
     text-align:center;
     font-size: 18px;
@@ -11,14 +16,16 @@ body{
 }
 
 h1 {
-    border: 5px dotted;
+    background-color: black;
+    color: white;
+    border-radius: 10px; 
 }
 
 #TextToConvert {
     text-align:center;
     font-size: 25px;
     color: white;
-    margin-left: 50px;
+    margin-left: 30px;
     bottom: 5px;
     font-family: Gadugi;
     width: 30%;
@@ -50,7 +57,7 @@ h1 {
     text-align:center;
     position: relative;
     bottom: 320px;
-    left: 370px;
+    left: 310px;
     font-family: Gadugi;
     padding-top: 10px;         
     font-size: 15px; 
@@ -100,8 +107,8 @@ h1 {
     font-family: Gadugi;
     color: white;
     position: relative;
-    bottom: 672px;
-    left: 620px;
+    bottom: 665px;
+    left: 520px;
     font-size: 25px;
     width: 30%;
     height: 300px;
@@ -112,6 +119,7 @@ h1 {
 #TextoAMostrar{
     text-align: justify;
     text-align: center;
+    font-size: 14px;
 }
 
 footer{
