@@ -1,36 +1,80 @@
+body{
+    background-image: url();
+    width: 800px;
+}
+
 #titleAndDescription {
     text-align:center;
     font-size: 18px;
+    font-family: Gadugi;
     
 }
 
+h1 {
+    border: 5px dotted;
+}
+
 #TextToConvert {
+    text-align:center;
     font-size: 25px;
-    position: relative;
-    left: 300px;
+    color: white;
+    margin-left: 50px;
+    bottom: 5px;
+    font-family: Gadugi;
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px; 
+    
+}
+
+#message {
+    background: #c60405;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
 #TextToCipherOrDecipher {
-    position: relative;
+    position: center;
     height: 200px;
     width: 200px; 
-    text-align: initial;
+    text-align: left;
+    border-radius: 5px;
+   
 }
 
 
 #buttonsAndOffset {
+    color: white;
     text-align:center;
-    position: relative;  
-    font-size: 20px;
-    bottom: 250px;  
+    position: relative;
+    bottom: 320px;
+    left: 370px;
+    font-family: Gadugi;
+    padding-top: 10px;         
+    font-size: 15px; 
+    width: 20%;
+    height: 290px;
+    background-color: black; 
+    border-radius: 5px;
 }
 
 #buttonCipher {
     font-size: 25px; 
+    border: none;
+    border-radius: 5px;
+    background: #c60405;
+    color: #FFF;
+    
 }
 
 #buttonDecipher {
     font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background: #c60405;
+    color: #FFF;
      
 }
 
@@ -41,13 +85,35 @@
     width: 60px; 
     position: center;
     bottom: 10px;
+    border: none;
 
 }
 
+#text {
+    text-align:center;  
+    background: #c60405;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 #textResults {
+    font-family: Gadugi;
+    color: white;
     position: relative;
-    left: 900px;
-    bottom: 540px;
+    bottom: 672px;
+    left: 620px;
     font-size: 25px;
-    
+    width: 30%;
+    height: 300px;
+    background-color: black; 
+    border-radius: 10px; 
+}
+
+#TextoAMostrar{
+    text-align: justify;
+    text-align: center;
+}
+
+footer{
+    font-family: Gadugi;  
 }
