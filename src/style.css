@@ -1,11 +1,6 @@
 body{
-    background-image: url();
-    width: 800px;
-}
-
-#global {
-    position: center;
-    border: 5px dotted;
+    background-image: url(https://www.publicdomainpictures.net/pictures/40000/velka/red-balloon-clipart.jpg);  
+    overflow: auto; 
 }
 
 #titleAndDescription {
@@ -19,26 +14,30 @@ h1 {
     background-color: black;
     color: white;
     border-radius: 10px; 
+    font-family: monospace;
 }
+
+/*img{
+ size: 1em, 1em,1em,1em;
+} */ 
 
 #TextToConvert {
     text-align:center;
     font-size: 25px;
     color: white;
-    margin-left: 30px;
-    bottom: 5px;
     font-family: Gadugi;
-    width: 30%;
-    height: 300px;
     background-color: black;
     border-radius: 10px; 
-    
+    width: 33.3%; 
+    height: 300px; 
+    float: left;
+    margin-right: 55px;
 }
 
 #message {
     background: #c60405;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
 
 }
 
@@ -55,16 +54,14 @@ h1 {
 #buttonsAndOffset {
     color: white;
     text-align:center;
-    position: relative;
-    bottom: 320px;
-    left: 310px;
-    font-family: Gadugi;
-    padding-top: 10px;         
+    font-family: Gadugi;         
     font-size: 15px; 
-    width: 20%;
-    height: 290px;
+    width: 25%;
+    height: 300px;
     background-color: black; 
     border-radius: 5px;
+    float: left;
+    margin-right: 55px;
 }
 
 #buttonCipher {
@@ -99,29 +96,24 @@ h1 {
 #text {
     text-align:center;  
     background: #c60405;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+   /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
 }
 
 #textResults {
     font-family: Gadugi;
     color: white;
-    position: relative;
-    bottom: 665px;
-    left: 520px;
     font-size: 25px;
-    width: 30%;
+    width: 33.3%;
     height: 300px;
     background-color: black; 
     border-radius: 10px; 
+    float: left;
 }
 
 #TextoAMostrar{
     text-align: justify;
-    text-align: center;
     font-size: 14px;
-}
-
-footer{
-    font-family: Gadugi;  
+    margin-left: 40px;
+    margin-right: 40px;
 }
