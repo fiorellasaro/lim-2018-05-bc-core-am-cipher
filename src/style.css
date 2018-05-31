@@ -1,6 +1,7 @@
 body{
 background-image: url(https://www.publicdomainpictures.net/pictures/40000/velka/red-balloon-clipart.jpg);  
 background-size: 50%;
+margin: 0;
 }
 
 
@@ -15,18 +16,22 @@ h1 {
   
 }
 
-#description {
+#descriptionFooter {
     background-color: #c60405;
     color: white;
     font-size:20px; 
     text-align: center;
     height: 30px;
+    width: 100%;
     font-family: 'Courgette', cursive;
     margin-top: 100px;
+    float:left;
+    box-sizing: border-box;
 }
 
 #blockCipherAndDecifer{
     overflow: auto;
+    box-sizing: border-box;
 }
 
 #TextToConvert {
@@ -42,12 +47,14 @@ h1 {
     margin-right: 55px;
 }
 
-#message {
+#message, #text {
     background: #c60405;
+    text-align:center; 
     /*border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
 
 }
+
 
 #TextToCipherOrDecipher {
     height: 200px;
@@ -105,12 +112,6 @@ h1 {
 
 }
 
-#text {
-    text-align:center;  
-    background: #c60405;
-   /* border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
-}
 
 #textResults {
     font-family: Gadugi;
@@ -121,7 +122,7 @@ h1 {
     background-color: black; 
     border-radius: 10px; 
     float: left;
-    margin-left: 36px;
+    margin-left: 38px;
 }
 
 #TextoAMostrar{
@@ -130,3 +131,12 @@ h1 {
     margin-left: 40px;
     margin-right: 40px;
 }
+/*
+
+@media handheld and () and (){
+
+}
+
+@media screen and () and (){
+    
+} */

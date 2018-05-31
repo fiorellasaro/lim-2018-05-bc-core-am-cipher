@@ -6,9 +6,10 @@ window.cipher = {
     let numberAscii; //variable que contendrá el numero ascii que le corresponde a cada caracter del texto a codificar
     let indice = 0; // variable que indica el indice de un caracter dentro del texto a codificar
     let charCounter = 0; // variable que contará el número de caracteres en el texto a codificar. Su finalidad es que cuando que cuando esta variable iguale el numero de caracteres del texto, el bucle se romperá
+    let textToConverte = text;
     nOffSet = nOffSet%26;
-    while ( text.length !== charCounter){
-      numberAscii = text.charCodeAt(indice);
+    while ( textToConverte.length !== charCounter){
+      numberAscii = textToConverte.charCodeAt(indice);
       if(numberAscii>=65 && numberAscii<=90){
         if(numberAscii+nOffSet>90){
           letterAscii = String.fromCharCode(numberAscii + nOffSet - 26);
@@ -23,7 +24,7 @@ window.cipher = {
               letterAscii = String.fromCharCode(numberAscii + nOffSet);
               }
           }else {
-            letterAscii = text.charAt(indice);
+            letterAscii = textToConverte.charAt(indice);
             }
       }
 
@@ -41,9 +42,10 @@ window.cipher = {
     let numberAscii; 
     let indice = 0; 
     let charCounter = 0; 
+    let textToConverte = text;
     nOffSet = nOffSet%26;
-    while ( text.length !== charCounter){
-      numberAscii = text.charCodeAt(indice);
+    while ( textToConverte.length !== charCounter){
+      numberAscii = textToConverte.charCodeAt(indice);
       if(numberAscii>=65 && numberAscii<=90){
         if(numberAscii-nOffSet<65){
           letterAscii = String.fromCharCode(numberAscii - nOffSet + 26);
@@ -58,7 +60,7 @@ window.cipher = {
               letterAscii = String.fromCharCode(numberAscii - nOffSet);
               }
           }else {
-            letterAscii = text.charAt(indice);
+            letterAscii = textToConverte.charAt(indice);
             }
       }
 
