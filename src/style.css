@@ -1,7 +1,6 @@
 body{
 background-image: url(https://www.publicdomainpictures.net/pictures/40000/velka/red-balloon-clipart.jpg);  
 background-size: 50%;
-overflow: auto; 
 }
 
 
@@ -19,16 +18,12 @@ h1 {
 #description {
     background-color: #c60405;
     color: white;
-    font-size:30px; 
+    font-size:20px; 
     text-align: center;
-    height: 35px;
-    font-family: 'Tangerine', cursive;
+    height: 30px;
+    font-family: 'Courgette', cursive;
     margin-top: 100px;
 }
-
-/*img{
- size: 1em, 1em,1em,1em;
-} */ 
 
 #blockCipherAndDecifer{
     overflow: auto;
@@ -55,7 +50,6 @@ h1 {
 }
 
 #TextToCipherOrDecipher {
-    position: center;
     height: 200px;
     width: 200px; 
     text-align: left;
@@ -76,7 +70,6 @@ h1 {
     border-radius: 10px;
     float: left;
     margin-right: 20px;
-    margin-top: -18px;
 }
 
 #buttonCipher {
@@ -107,7 +100,6 @@ h1 {
     font-size: 25px;
     height: 30px;
     width: 60px; 
-    position: center;
     bottom: 10px;
     border: none;
 
@@ -129,7 +121,6 @@ h1 {
     background-color: black; 
     border-radius: 10px; 
     float: left;
-    margin-top: -36px;
     margin-left: 36px;
 }
 
