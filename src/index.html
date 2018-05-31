@@ -7,13 +7,14 @@
   </head>
   <body>
     <div id="root"></div>
-
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Tangerine" rel="stylesheet">
     <div id="titleAndDescription">
       <h1>¡Cifrado César!</h1>
-      <!--  <img src= "http://getdrawings.com/image/red-balloon-drawing-54.jpg"> -->
-      <p id="description">Aplicación creada para poder comunicarnos secretamente sobre la fiesta sorpresa para Andrea. </p>
+      <!--  <img src= "http://getdrawings.com/image/red-balloon-drawing-54.jpg"> 
+              https://cdn.pixabay.com/photo/2016/10/23/14/05/balloon-1762993_960_720.png -->
     </div>
-   
+
+  <div id="blockCipherAndDecifer"> 
     <div id ="TextToConvert">
       <p id="message">¡Escribe el mensaje!: </p>
       <textarea type= "text" name="CipherBoxText" id="TextToCipherOrDecipher"> </textarea>  
@@ -25,7 +26,6 @@
      <input  type= "number" name="OffSet" id="nValue" min="1" value="1">
      <br/>
      <br/>
-
      <button id="buttonCipher">Cifrar</button>   
      <br/>
      <br/>
@@ -34,10 +34,12 @@
     <br/>
     
     <div id="textResults">
-      <p id="text"> Texto: </p>
+      <p id="text"> Resultado: </p>
       <p id= "TextoAMostrar">  </p>
     </div>
-    
+  </div> 
+   
+  <footer id="description">Aplicación creada para poder comunicarnos secretamente sobre la fiesta sorpresa para Andrea.<footer>
     
     <script src="cipher.js"></script>
     <script src="index.js"></script>
