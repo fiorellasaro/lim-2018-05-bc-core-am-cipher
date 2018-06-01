@@ -329,3 +329,60 @@ h1 {
         font-size: 15px;
     }
 }
+
+@media screen and (min-width: 800px) and (min-height: 700px){
+    #TextToConvert {
+        height: 330px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    #TextToCipherOrDecipher {
+        margin-top: 15px;
+        height: 200px;
+        width: 200px; 
+        font-size: 15px;
+    }
+    #buttonsAndOffset {         
+        width: 200px;
+        height: 330px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
+    #textResults {
+        font-size: 20px;
+        margin-left:20px;
+        height: 330px;
+    }
+    
+    #TextoAMostrar{
+        font-size: 15px;
+    }
+
+    #buttonCipher {
+        font-size: 25px; 
+        height: 70px;
+        padding-left: 18px;
+        padding-right: 20px;
+        
+    }
+    
+    #buttonDecipher {
+        font-size: 25px;
+        height: 70px;
+         
+    }
+    
+    #nValue {
+        font-size: 25px;
+        height: 30px;
+        width: 60px; 
+        bottom: 10px;
+    
+    }
+
+   
+
+
+}

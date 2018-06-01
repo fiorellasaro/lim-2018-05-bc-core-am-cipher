@@ -14,6 +14,17 @@ describe('cipher', () => {
       let result = cipher.encode(33, "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
       assert.equal(result, "HIJKLMNOPQRSTUVWXYZABCDEFG");
      });
+
+     it('debería retornar "Lspe! góqs iwxáw?" para "Hola! cómo estás?" con offest 4', () => {
+      let result = cipher.encode(4, "Hola! cómo estás?");
+      assert.equal(result, "Lspe! góqs iwxáw?");
+     });
+
+     it('debería retornar "Ovsh! jótv lzaáz?" para "Hola! cómo estás?" con offest 33', () => {
+      let result = cipher.encode(33, "Hola! cómo estás?");
+      assert.equal(result, "Ovsh! jótv lzaáz?");
+     });
+
     });
 
   describe('cipher.decode', () => {
@@ -27,6 +38,16 @@ describe('cipher', () => {
       assert.equal(result, "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     });
 
+     it('debería retornar "12345" para "12345" con offest 33', () => {
+      let result = cipher.decode(33, "12345");
+      assert.equal(result, "12345");
+     });
+
+     it('debería retornar "ahet" para "hola" con offest 33', () => {
+      let result = cipher.decode(33, "hola");
+      assert.equal(result, "ahet");
+     });
+
   });
 
   describe('cipher.createCipherWithOffset', () => {
@@ -35,7 +56,11 @@ describe('cipher', () => {
       assert.equal(typeof cipher.createCipherWithOffset, 'function');
     });
 
-    it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado');
+    it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado', () => {
+      let offset
+      let result = cipher.createCipherWithOffset(offset);
+      assert.isObject(result);
+    });
 
   });
 

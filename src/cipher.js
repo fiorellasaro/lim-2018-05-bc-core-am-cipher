@@ -34,7 +34,7 @@ window.cipher = {
     }
     
     return letterInicial;
-    },
+  },
 
   decode: (nOffSet, text) => {
     let letterInicial= ''; 
@@ -69,5 +69,13 @@ window.cipher = {
       indice ++;
     }
     return letterInicial;
+  },
+
+  createCipherWithOffset: (nOffSet) => {
+    let cipherAndDecipher = {
+         encode: (text) => cipher.encode(nOffSet,text),
+         decode: (text) => cipher.decode(nOffSet,text)    
+    }
+    return cipherAndDecipher;
   }
 };

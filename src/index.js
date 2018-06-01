@@ -2,6 +2,7 @@
 let texto;
 let nOffSetUser;
 let numberN;
+//let cipherObject =cipher.createCipherWithOffset(3);
 
 
 let capturarDatos = () => {
