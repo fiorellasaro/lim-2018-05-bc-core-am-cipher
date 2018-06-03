@@ -291,98 +291,83 @@ h1 {
     }
 } 
 
-@media screen and (min-width: 420px){
-    #TextToCipherOrDecipher {
-        height: 100px;
-        width: 100px; 
-    }
-    #buttonsAndOffset {         
-        width: 100px;
-        margin-right: 10px;
-    }
-}
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 780px)and (min-height: 820px){
+
     #TextToConvert {
-        height: 300px;
-        margin-right: 20px;
+        font-size: 20px;
+        width: 250px;
+
     }
 
     #TextToCipherOrDecipher {
-        margin-top: 15px;
-        height: 200px;
+        font-size:15px;
+        height: 100px;
         width: 150px; 
     }
-    #buttonsAndOffset {         
+
+    #descriptionFooter {
+        font-size:18px; 
+        height: 30px;
+        margin-top:430px;
+    }
+
+    #buttonsAndOffset {        
+        font-size: 15px; 
         width: 150px;
-        height: 300px;
-        margin-right: 5px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 
     #textResults {
-        font-size: 15px;
-        height: 300px;
-        margin-left:20px;
+        font-size: 20px;
+        width: 250px;
     }
     
     #TextoAMostrar{
         font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
+   
 }
 
-@media screen and (min-width: 800px) and (min-height: 700px){
+@media screen and (min-width: 780px) and (min-height: 1024px){
+
     #TextToConvert {
-        height: 330px;
-        margin-right: 20px;
         font-size: 20px;
+        width: 250px;
+
     }
 
     #TextToCipherOrDecipher {
-        margin-top: 15px;
-        height: 200px;
-        width: 200px; 
-        font-size: 15px;
+        font-size:15px;
+        height: 100px;
+        width: 150px; 
     }
-    #buttonsAndOffset {         
-        width: 200px;
-        height: 330px;
-        margin-right: 5px;
-        font-size: 20px;
+
+    #descriptionFooter {
+        font-size:18px; 
+        height: 30px;
+        margin-top:600px;
+    }
+
+    #buttonsAndOffset {        
+        font-size: 15px; 
+        width: 150px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 
     #textResults {
         font-size: 20px;
-        margin-left:20px;
-        height: 330px;
+        width: 250px;
     }
     
     #TextoAMostrar{
         font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-
-    #buttonCipher {
-        font-size: 25px; 
-        height: 70px;
-        padding-left: 18px;
-        padding-right: 20px;
-        
-    }
-    
-    #buttonDecipher {
-        font-size: 25px;
-        height: 70px;
-         
-    }
-    
-    #nValue {
-        font-size: 25px;
-        height: 30px;
-        width: 60px; 
-        bottom: 10px;
-    
-    }
-
-   
-
 
 }

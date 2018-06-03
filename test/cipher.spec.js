@@ -62,7 +62,24 @@ describe('cipher', () => {
       assert.isObject(result);
     });
 
-  });
+    it('cipher.createCipherWithOffset.encode debería ser una funcion', () => {
+        assert.equal(typeof cipher.createCipherWithOffset(2).encode, 'function');
+    });
 
+    it('debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33', () => {
+      let result = cipher.createCipherWithOffset(33).encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+      assert.equal(result, "HIJKLMNOPQRSTUVWXYZABCDEFG");
+     });
+
+    it('cipher.createCipherWithOffset.decode debería ser una funcion', () => {
+      assert.equal(typeof cipher.createCipherWithOffset(2).decode, 'function');
+    });
+
+    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33', () => {
+      let result= cipher.createCipherWithOffset(33).decode("HIJKLMNOPQRSTUVWXYZABCDEFG");
+      assert.equal(result, "ABCDEFGHIJKLMNOPQRSTUVWXYZ");
+    });
+    
+  });
 });
 
