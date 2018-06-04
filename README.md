@@ -86,4 +86,16 @@ Los objetivos de los usuarios en relación al producto son los siguientes:
 El producto creado es ideal para poder escribir cualquier mensaje y que este sea cifrado. Acepta tanto letras mayúsculas como minúsculas, así como también símbolos y espacios. A su vez también se puede colocar en el aplicativo web un texto ya cifrado y poderse decifrar (siempre y cuando entre usuarios se hayan compartido el número de desplazamientos que generó el texto cifrado).
 
 ## Prototipado:
-Se crearon 4 prototipos para el diseño de la interfaz.
+Se crearon 4 prototipos para el diseño de la interfaz:
+
+### Primer prototipo:
+![PrimerPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/Primer prototipo.png)
+
+### Segundo prototipo:
+![SegundoPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/Segundo prototipo.png)
+
+### Tercer prototipo:
+![TercerPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/Tercer prototipo.png)
+
+### Cuarto prototipo:
+![CuartoPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/cuarto prototipo.png)
