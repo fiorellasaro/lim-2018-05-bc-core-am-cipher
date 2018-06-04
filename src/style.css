@@ -24,7 +24,7 @@ li {
     font-size: 12px;
 }
 
-#titleInstructions{
+.titleInstructions{
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
@@ -60,11 +60,11 @@ li {
     margin-right: 15px;
     margin-left: 10%;
 }
-#InstructionsQuestion{
+.InstructionsQuestion{
     font-size: 25px;  
 }
 
-#InstructionsRefer{
+.InstructionsRefer{
     font-size: 15px;
 }
 
