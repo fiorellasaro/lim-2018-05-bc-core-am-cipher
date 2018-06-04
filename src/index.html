@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -11,8 +11,39 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Courgette" rel="stylesheet">
   
       <h1>¡Cifrado César!</h1>
-      <!--  <img src= "http://getdrawings.com/image/red-balloon-drawing-54.jpg"> 
-              https://cdn.pixabay.com/photo/2016/10/23/14/05/balloon-1762993_960_720.png -->
+
+      <div id=InstructionButtoms>
+        <div id= "InstructionsCipherText">
+            <h2 id="titleInstructions"> Instrucciones para cifrar: </h2>
+            <ol>
+              <li>Escribe el mensaje que desees cifrar.</li>
+              <li>En " # ", escribe el numero que quieras (mayor que cero).</li>
+              <li>Toca el botón "Cifrar" y ¡listo!, te aparecerá el mensaje cifrado.</li>
+              <li>Copia, pega el mensaje y pásalo al contacto que desees.</li>
+              <li>Indicale a tu contacto también el numero que escogiste para cifrar. Con ese número tu contacto podra decifrar el mensaje.</li>
+              <li>Pásale a tu contacto esta página para que pueda decifrar el mensaje.</li>
+              <li>¡Todo listo!.</li>
+            </ol>
+        </div>
+        <button id="InstructionsCipher">
+          <h2 id="InstructionsQuestion"> ¿Quieres cifrar? </h2>
+          <h3 id="InstructionsRefer"> Instrucciones aquí </h3>
+        </button>
+        <button id="InstructionsDecipher">
+            <h2 id="InstructionsQuestion"> ¿Quieres decifrar? </h2>
+            <h3 id="InstructionsRefer"> Instrucciones aquí </h3>
+        </button>
+        <div id= "InstructionsDecipherText">
+            <h2 id="titleInstructions"> Instrucciones para decifrar: </h2>
+            <ol>
+              <li>Escribe o copia el mensaje que desees decifrar.</li>
+              <li>En " # ", escribe el numero que te indicaron para decifrar el mensaje.</li>
+              <li>Toca el botón "Decifrar" y ¡listo!, te aparecerá el mensaje decifrado.</li>
+              <li>¡Todo listo!.</li>
+            </ol>
+        </div>
+
+      </div>
 
   <div id="blockCipherAndDecifer"> 
     <div id ="TextToConvert">
@@ -21,7 +52,7 @@
     </div>
 
     <div id="buttonsAndOffset">
-     <p>Offset (valor de N): </p>
+     <p id="OffsetZone"> # : </p>
      <input  type= "number" name="OffSet" id="nValue" min="1" value="1">
      <br/>
      <br/>

@@ -2,6 +2,7 @@ body{
 background-image: url(https://www.publicdomainpictures.net/pictures/40000/velka/red-balloon-clipart.jpg);  
 background-size: 50%;
 margin: 0;
+font-size: 15px;
 }
 
 
@@ -16,8 +17,84 @@ h1 {
   
 }
 
+li {
+    font-family: Gadugi; 
+    margin-right: 15px;  
+    text-align: left;
+    font-size: 12px;
+}
+
+#titleInstructions{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+
+}
+
+#InstructionButtoms{
+    height: 350px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+#InstructionsCipherText{
+    visibility: hidden;
+    border: none;
+    border-radius: 20px;
+    background:black;
+    color: #FFF;
+    height: 320px;
+    width: 320px;
+    float: left;
+}
+
+#InstructionsCipher{ 
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background: #FED83A;
+    color: #FFF;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 10%;
+}
+#InstructionsQuestion{
+    font-size: 25px;  
+}
+
+#InstructionsRefer{
+    font-size: 15px;
+}
+
+#InstructionsDecipherText{
+    visibility: hidden;
+    text-align: left;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+    background:black;
+    color: #FFF;
+    height: 320px;
+    width: 320px;
+    float: left;
+}
+
+#InstructionsDecipher{ 
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background: #FED83A;
+    color: #FFF;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+
 #descriptionFooter {
-    background-color: #c60405;
+    background-color: black;
     color: white;
     font-size:20px; 
     text-align: center;
@@ -48,10 +125,8 @@ h1 {
 }
 
 #message, #text {
-    background: #c60405;
+    background: #FED83A;
     text-align:center; 
-    /*border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
 
 }
 
@@ -69,8 +144,7 @@ h1 {
 #buttonsAndOffset {
     color: white;
     text-align:center;
-    font-family: Gadugi;         
-    font-size: 15px; 
+    font-family: Gadugi;          
     width: 25%;
     height: 300px;
     background-color: black; 
@@ -84,7 +158,7 @@ h1 {
     text-align: center;
     border: none;
     border-radius: 20px;
-    background: #c60405;
+    background: #FDCC00;
     color: #FFF;
     height: 70px;
     padding-left: 18px;
@@ -96,15 +170,19 @@ h1 {
     font-size: 25px;
     border: none;
     border-radius: 20px;
-    background: #c60405;
+    background: #FDCC00;
     color: #FFF;
     height: 70px;
      
 }
 
+#OffsetZone{
+font-size: 15px;
+margin-bottom: 3px;
+}
+
 #nValue {
     text-align:center;
-    font-size: 25px;
     height: 30px;
     width: 60px; 
     bottom: 10px;
@@ -132,8 +210,55 @@ h1 {
     margin-right: 40px;
 }
 
+/*
+@media  only screen and (min-width: 320px) and (min-height: 568px){
 
-@media screen and (min-width: 320px) and (min-height: 568px){
+    
+li {
+    font-size: 8px;
+    margin-bottom: -2px;
+}
+
+#titleInstructions{
+    font-size: 15px;
+
+}
+
+#InstructionButtoms{
+    height: 200px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#InstructionsCipherText{
+    height: 200px;
+    width: 200px;
+}
+
+#InstructionsCipher{ 
+    margin-left: 20%;
+    height: 80px;
+    width: 80px;
+}
+#InstructionsQuestion{
+    font-size: 15px;  
+}
+
+#InstructionsRefer{
+    font-size: 8px;
+
+}
+
+#InstructionsDecipherText{
+    height: 200px;
+    width: 200px;
+}
+
+#InstructionsDecipher{ 
+    height: 80px;
+    width: 80px;
+}
+
    
     #TextToConvert {
         font-size: 15px;
@@ -193,7 +318,7 @@ h1 {
     }
 }
 
-@media screen and (min-width: 414px) and (min-height: 736px){
+@media only screen and (min-width: 414px) and (min-height: 736px){
 
     #TextToConvert {
         width: 142px;
@@ -228,7 +353,7 @@ h1 {
     }
 } 
 
-@media screen and (min-width: 375px) and (min-height: 667px){
+@media only screen and (min-width: 375px) and (min-height: 667px){
 
     body{
         background-size: 80%;
@@ -292,7 +417,7 @@ h1 {
 } 
 
 
-@media screen and (min-width: 780px)and (min-height: 820px){
+@media only screen and (min-width: 780px)and (min-height: 820px){
 
     #TextToConvert {
         font-size: 20px;
@@ -332,7 +457,7 @@ h1 {
    
 }
 
-@media screen and (min-width: 780px) and (min-height: 1024px){
+@media only screen and (min-width: 780px) and (min-height: 1024px){
 
     #TextToConvert {
         font-size: 20px;
@@ -371,3 +496,9 @@ h1 {
     }
 
 }
+
+@media only screen and (min-width: 992px) {
+
+} 
+
+*/
