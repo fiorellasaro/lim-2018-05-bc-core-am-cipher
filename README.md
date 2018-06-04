@@ -89,13 +89,13 @@ El producto creado es ideal para poder escribir cualquier mensaje y que este sea
 Se crearon 4 prototipos para el diseño de la interfaz:
 
 ### Primer prototipo:
-![PrimerPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/Primer prototipo.png)
+![PrimerPrototipo](Prototipos/Primer prototipo.png)
 
 ### Segundo prototipo:
-![SegundoPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/Segundo prototipo.png)
+![SegundoPrototipo](Prototipos/Segundo prototipo.png)
 
 ### Tercer prototipo:
-![TercerPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/Tercer prototipo.png)
+![TercerPrototipo](Prototipos/Tercer prototipo.png)
 
 ### Cuarto prototipo:
-![CuartoPrototipo](lim-2018-05-bc-core-am-cipher/Prototipos/cuarto prototipo.png)
+![CuartoPrototipo](Prototipos/cuarto prototipo.png)
