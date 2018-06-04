@@ -64,26 +64,26 @@ experiencias de tu vida. Lo importante es que realices el proyecto de manera
 integral.
 
 
-##¿Quiénes son los principales usuarios de producto?
+## ¿Quiénes son los principales usuarios de producto?
 
 Los principales usuarios del producto, en este caso, son los amigos y familiares de la cumpleañera.
 Consideraciones a tener en cuenta sobre los usuarios:
 
-###Son de edades diversas, por lo tanto, generaciones distintas:
+### Son de edades diversas, por lo tanto, generaciones distintas:
  Este punto es importante ya que la interfaz del usuario debe ser fácil de comprender para todos. Habrán casos donde los usuarios entrarán a la aplicación web y sabrán intuitivamente qué hacer y otros casos donde no necesariamente pasará eso por lo que se decidió que la interfaz contenga instrucciones para aquellas personas que tengan dificultad y así sepan exactamente qué hacer. Es importante destacar que la visualización de las instrucciones será opcional para que la aplicación web no contenga tantos textos explicativos.
 
-###Todos son cercanos a la cumpleañera, por lo que saben lo minimo de sus gustos:
+### Todos son cercanos a la cumpleañera, por lo que saben lo minimo de sus gustos:
 Este punto se consideró para determinar la paleta de colores. La aplicación web fue creada para que entre amigos y familiares se envíen "mensajes secretos" para poder comunicarse tranquilamente sin que la cumpleañera se entere de la fiesta sorpresa, por lo que los colores e imagenes a elegirse tienen mucha relación con el fin del aplicativo web: Una fiesta.
 Los colores escogidos para la interfaz tienen estrecha relación con los gustos personales de la cumpleañera; así, todos los usuarios que están relacionados con la cumpleañera, al entrar al aplicativo web, se sentirán familiarizados tanto con la fiesta sorpresa como con la persona a homenajear. 
 
-##¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+## ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 Los objetivos de los usuarios en relación al producto son los siguientes:
 1. Que al escribir un mensaje en el aplicativo web, se pueda obtener ese mensaje cifrado para así poder comunicarse de manera secreta con los demás usuarios, en este caso, los amigos y familiares de la cumpleañera.
 2. Que al escribir o copiar un mensaje cifrado en el aplicativo web, se pueda obtener el mensaje decifrado para asi poder entender cuál era el mensaje y poder responder de la misma manera con otro mensaje cifrado.
 3. Comunicarse de manera secreta con otra persona.
 
-##¿Cómo crees que el producto que estás creando les está resolviendo sus problemas?
+## ¿Cómo crees que el producto que estás creando les está resolviendo sus problemas?
 El producto creado es ideal para poder escribir cualquier mensaje y que este sea cifrado. Acepta tanto letras mayúsculas como minúsculas, así como también símbolos y espacios. A su vez también se puede colocar en el aplicativo web un texto ya cifrado y poderse decifrar (siempre y cuando entre usuarios se hayan compartido el número de desplazamientos que generó el texto cifrado).
 
-##Prototipado:
+## Prototipado:
 Se crearon 4 prototipos para el diseño de la interfaz.
