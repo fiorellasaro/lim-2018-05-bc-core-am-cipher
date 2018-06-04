@@ -95,13 +95,17 @@ En este prototipo se tuvo la idea de una primera interfaz donde solo se vea una 
 
 
 ### Segundo prototipo:
-Luego de realizar el primero prototipo se pidio feedback sobre él y se decidió que sería mejor que tanto el mensaje a querer cifrar o decifrar y el resultado se vean en una sola interfaz.
+Luego de realizar el primero prototipo se pidio feedback sobre él y se decidió que sería mejor que tanto el mensaje a querer cifrar o decifrar y el resultado se vean en una sola interfaz. Para esto se diseñó un segundo prototipo. Sin embargo, este prototipo solo se tomó en cuenta al momento de hacer el responsive web design para dispositivos mobiles. 
 
 ![SegundoPrototipo](Prototipos/Segundo%20prototipo.png)
 
 ### Tercer prototipo:
-Se optó por una interfaz lineal
+Se optó por una interfaz que contenga tres partes de forma lineal: La sección donde se escribe el mensaje, la sección donde el usuario coloca el número offset y decide si quiere cifrar o decifrar y la sección donde se mostrará el mensaje ya codificado o decodificado, según corresponda. Este prototipo se tomó en cuenta para el momento de hacer el responsive web design para desktop y laptops.
+
 ![TercerPrototipo](Prototipos/Tercer%20prototipo.png)
 
 ### Cuarto prototipo:
+Este cuarto prototipo tiene la misma estructura que el tercer prototipo, la diferencia es que luego del titulo hay dos botones muy grandes y centrados.
+El objetivo de estos botones es brindar información sobre cómo cifrar y/o cómo decifrar. La razón para ser botones es para que esta información sobre las instrucciones sean visible de manera opcional. No todos los usuarios que accedan al aplicativo web necesitarán instrucciones para poder utilizarlo, existen otros usuarios que sí.
+
 ![CuartoPrototipo](Prototipos/cuarto%20prototipo.png)
