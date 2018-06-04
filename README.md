@@ -88,14 +88,20 @@ El producto creado es ideal para poder escribir cualquier mensaje y que este sea
 ## Prototipado:
 Se crearon 4 prototipos para el diseño de la interfaz:
 
-### Primer prototipo:
-![PrimerPrototipo](Prototipos/Primer prototipo.png)
+### Primer prototipo: 
+En este prototipo se tuvo la idea de una primera interfaz donde solo se vea una caja de texto donde se colocará el mensaje que se desee cifrar o decifrar, el "n" que es el Offset y los botones de cifrado o decifrado. Al hacer clic sobre cualquiera de los botones "cifrar" o "decifrar", automaticamente el aplicativo web te mandaba a una segunda interfaz donde se observaria el mensaje ya cifrado o decifrado (según lo que haya pedido el usuario que haga el aplicativo web).
+
+![PrimerPrototipo](Prototipos/Primer%20prototipo.png)
+
 
 ### Segundo prototipo:
-![SegundoPrototipo](Prototipos/Segundo prototipo.png)
+Luego de realizar el primero prototipo se pidio feedback sobre él y se decidió que sería mejor que tanto el mensaje a querer cifrar o decifrar y el resultado se vean en una sola interfaz.
+
+![SegundoPrototipo](Prototipos/Segundo%20prototipo.png)
 
 ### Tercer prototipo:
-![TercerPrototipo](Prototipos/Tercer prototipo.png)
+Se optó por una interfaz lineal
+![TercerPrototipo](Prototipos/Tercer%20prototipo.png)
 
 ### Cuarto prototipo:
-![CuartoPrototipo](Prototipos/cuarto prototipo.png)
+![CuartoPrototipo](Prototipos/cuarto%20prototipo.png)
