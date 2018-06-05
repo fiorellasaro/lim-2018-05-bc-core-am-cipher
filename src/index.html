@@ -12,8 +12,11 @@
   
       <h1>¡Cifrado César!</h1>
 
-      <div id="InstructionButtoms">
-        <div id= "InstructionsCipherText">
+      <section class="Instruction">
+
+        <section class="InstructionsAndButton">
+
+          <article class= "InstructionsText">
             <h2 class="titleInstructions"> Instrucciones para cifrar: </h2>
             <ol>
               <li>Escribe el mensaje que desees cifrar.</li>
@@ -24,35 +27,44 @@
               <li>Pásale a tu contacto esta página para que pueda descifrar el mensaje.</li>
               <li>¡Todo listo!.</li>
             </ol>
-        </div>
-        <button id="InstructionsCipher">
-          <h2 class="InstructionsQuestion"> ¿Quieres cifrar? </h2>
-          <h3 class="InstructionsRefer"> Instrucciones aquí </h3>
-        </button>
-        <button id="InstructionsDecipher">
+          </article>
+
+          <button type="button" class="InstructionsButton">
+            <h2 class="InstructionsQuestion"> ¿Quieres cifrar? </h2>
+            <h3 class="InstructionsRefer"> Instrucciones aquí </h3>
+          </button>
+
+        </section>
+      
+       <section class="InstructionsAndButton">
+
+          <article class= "InstructionsText">
+              <h2 class="titleInstructions"> Instrucciones para decifrar: </h2>
+              <ol>
+                <li>Escribe o copia el mensaje que desees decifrar.</li>
+                <li>En " # ", escribe el numero que te indicaron para descifrar el mensaje.</li>
+                <li>Toca el botón "Descifrar" y ¡listo!, te aparecerá el mensaje descifrado.</li>
+                <li>¡Todo listo!.</li>
+              </ol>
+          </article>
+
+          <button type="button"  class="InstructionsButton">
             <h2 class="InstructionsQuestion"> ¿Quieres descifrar? </h2>
             <h3 class="InstructionsRefer"> Instrucciones aquí </h3>
-        </button>
-        <div id= "InstructionsDecipherText">
-            <h2 class="titleInstructions"> Instrucciones para decifrar: </h2>
-            <ol>
-              <li>Escribe o copia el mensaje que desees decifrar.</li>
-              <li>En " # ", escribe el numero que te indicaron para descifrar el mensaje.</li>
-              <li>Toca el botón "Descifrar" y ¡listo!, te aparecerá el mensaje descifrado.</li>
-              <li>¡Todo listo!.</li>
-            </ol>
-        </div>
+          </button>
 
-      </div>
+       </section>
+           
+      </section>
 
-  <div id="blockCipherAndDecifer"> 
-    <div id ="TextToConvert">
-      <p id="message">¡Escribe el mensaje!: </p>
+  <main class="blockCipherAndDecifer"> 
+    <section Class ="ConvertAndResults">
+      <h2 class="message">¡Escribe el mensaje!: </h2>
       <textarea  name="CipherBoxText" id="TextToCipherOrDecipher"> </textarea>  
-    </div>
+    </section>
 
-    <div id="buttonsAndOffset">
-     <p id="OffsetZone"> # : </p>
+    <section Class="buttonsAndOffset">
+     <h2> # : </h2>
      <input  type= "number" name="OffSet" id="nValue" min="1" value="1">
      <br/>
      <br/>
@@ -60,13 +72,13 @@
      <br/>
      <br/>
      <button id="buttonDecipher">Descifrar</button> 
-    </div>  
+    </section>  
     
-    <div id="textResults">
-      <p id="text"> Resultado: </p>
+    <section Class="ConvertAndResults">
+      <h2 class="message"> Resultado: </h2>
       <p id= "TextoAMostrar">  </p>
-    </div>
-  </div> 
+    </section>
+  </main> 
    
   <footer id="descriptionFooter">Aplicación creada para poder comunicarnos secretamente sobre la fiesta sorpresa para Andrea.</footer>
     

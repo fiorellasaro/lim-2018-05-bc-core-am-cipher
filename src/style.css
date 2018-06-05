@@ -17,6 +17,17 @@ h1 {
   
 }
 
+.Instruction{
+    height: 350px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+
+.InstructionsAndButton{
+    float: left;
+}
+
 li {
     font-family: Gadugi; 
     margin-right: 15px;  
@@ -24,21 +35,10 @@ li {
     font-size: 12px;
 }
 
-.titleInstructions{
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-size: 25px;
-
-}
-
-#InstructionButtoms{
-    height: 350px;
-    margin-top: -20px;
-    margin-bottom: -10px;
-}
-
-#InstructionsCipherText{
+.InstructionsText{
     visibility: hidden;
+    text-align: left;
+    font-size: 12px;
     border: none;
     border-radius: 20px;
     background:black;
@@ -48,7 +48,14 @@ li {
     float: left;
 }
 
-#InstructionsCipher{ 
+.titleInstructions{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+
+}
+
+.InstructionsButton{ 
     text-align: center;
     border: none;
     border-radius: 20px;
@@ -60,6 +67,8 @@ li {
     margin-right: 15px;
     margin-left: 10%;
 }
+
+
 .InstructionsQuestion{
     font-size: 25px;  
 }
@@ -68,50 +77,15 @@ li {
     font-size: 15px;
 }
 
-#InstructionsDecipherText{
-    visibility: hidden;
-    text-align: left;
-    font-size: 12px;
-    border: none;
-    border-radius: 20px;
-    background:black;
-    color: #FFF;
-    height: 320px;
-    width: 320px;
-    float: left;
-}
 
-#InstructionsDecipher{ 
-    text-align: center;
-    border: none;
-    border-radius: 20px;
-    background: #FED83A;
-    color: #FFF;
-    height: 200px;
-    width: 200px;
-    float: left;
-}
+/* Secciones de mensaje y resultado*/
 
-
-#descriptionFooter {
-    background-color: black;
-    color: white;
-    font-size:20px; 
-    text-align: center;
-    height: 30px;
-    width: 100%;
-    font-family: 'Courgette', cursive;
-    margin-top: 100px;
-    float:left;
-    box-sizing: border-box;
-}
-
-#blockCipherAndDecifer{
+.blockCipherAndDecifer{
     overflow: auto;
     box-sizing: border-box;
 }
 
-#TextToConvert {
+.ConvertAndResults {
     text-align:center;
     font-size: 25px;
     color: white;
@@ -124,7 +98,9 @@ li {
     margin-right: 55px;
 }
 
-#message, #text {
+
+
+.message {
     background: #FED83A;
     text-align:center; 
 
@@ -141,7 +117,7 @@ li {
 }
 
 
-#buttonsAndOffset {
+.buttonsAndOffset {
     color: white;
     text-align:center;
     font-family: Gadugi;          
@@ -151,6 +127,16 @@ li {
     border-radius: 10px;
     float: left;
     margin-right: 20px;
+}
+
+
+#nValue {
+    text-align:center;
+    height: 30px;
+    width: 60px; 
+    bottom: 10px;
+    border: none;
+
 }
 
 #buttonCipher {
@@ -176,33 +162,6 @@ li {
      
 }
 
-#OffsetZone{
-font-size: 15px;
-margin-bottom: 3px;
-}
-
-#nValue {
-    text-align:center;
-    height: 30px;
-    width: 60px; 
-    bottom: 10px;
-    border: none;
-
-}
-
-
-#textResults {
-    font-family: Gadugi;
-    color: white;
-    font-size: 25px;
-    width: 33.3%;
-    height: 300px;
-    background-color: black; 
-    border-radius: 10px; 
-    float: left;
-    margin-left: 38px;
-}
-
 #TextoAMostrar{
     text-align: justify;
     font-size: 14px;
@@ -210,150 +169,149 @@ margin-bottom: 3px;
     margin-right: 40px;
 }
 
-/*
-@media  only screen and (min-width: 320px) and (min-height: 568px){
+#descriptionFooter {
+    background-color: black;
+    color: white;
+    font-size:20px; 
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    font-family: 'Courgette', cursive;
+    margin-top: 100px;
+    float:left;
+    box-sizing: border-box;
+}
 
+
+
+@media screen and (max-width: 640px) and (min-width: 480px){
+
+    li {
+        margin-right: 10px;  
+        font-size: 12px;
+    }
     
-li {
-    font-size: 8px;
-    margin-bottom: -2px;
-}
-
-#titleInstructions{
-    font-size: 15px;
-
-}
-
-#InstructionButtoms{
-    height: 200px;
-    margin-top: -5px;
-    margin-bottom: -5px;
-}
-
-#InstructionsCipherText{
-    height: 200px;
-    width: 200px;
-}
-
-#InstructionsCipher{ 
-    margin-left: 20%;
-    height: 80px;
-    width: 80px;
-}
-#InstructionsQuestion{
-    font-size: 15px;  
-}
-
-#InstructionsRefer{
-    font-size: 8px;
-
-}
-
-#InstructionsDecipherText{
-    height: 200px;
-    width: 200px;
-}
-
-#InstructionsDecipher{ 
-    height: 80px;
-    width: 80px;
-}
-
-   
-    #TextToConvert {
-        font-size: 15px;
-        margin-right: 10px;
+    .titleInstructions{
+        font-size: 25px;
+    
+    }
+    
+    #InstructionButtoms{
+        height: 350px;
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
+    
+    #InstructionsCipherText{
+        height: 320px;
+        width: 320px;
+    }
+    
+    #InstructionsCipher{ 
         height: 200px;
+        width: 200px;
+        margin-right: 15px;
+        margin-left: 10%;
+    }
+    .InstructionsQuestion{
+        font-size: 25px;  
+    }
+    
+    .InstructionsRefer{
+        font-size: 15px;
+    }
+    
+    #InstructionsDecipherText{
+        font-size: 12px;
+        height: 320px;
+        width: 320px;
+    }
+    
+    #InstructionsDecipher{ 
+        height: 200px;
+        width: 200px;
+    }
+    
+
+    #TextToConvert {
+        font-size: 20px;
+        width: 250px;
+
     }
 
     #TextToCipherOrDecipher {
-        font-size:10px;
+        font-size:15px;
         height: 100px;
-        width: 80px; 
+        width: 150px; 
     }
 
     #descriptionFooter {
-        font-size:10px; 
+        font-size:18px; 
         height: 30px;
-        margin-top:200px;
+        margin-top:600px;
     }
 
     #buttonsAndOffset {        
-        font-size: 10px; 
-        width:85px;
-        height: 200px;
-        margin-right: 5px;
-    }
-
-    #buttonCipher {
         font-size: 15px; 
-        height: 40px;
-        padding-left: 14px;
-        padding-right: 14px;
-        border-radius: 10px;   
-    }
-    
-    #buttonDecipher {
-        font-size: 15px;
-        height: 40px;
-        border-radius: 10px;     
-    }
-
-    #nValue {
-        font-size: 15px;
-        height: 20px;
-        width: 40px; 
+        width: 150px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 
     #textResults {
-        font-size: 15px;
-        height: 200px;
-        margin-left: 5px;
+        font-size: 20px;
+        width: 250px;
     }
     
     #TextoAMostrar{
-        font-size: 10px;
+        font-size: 15px;
         margin-left: 20px;
         margin-right: 20px;
     }
-}
 
-@media only screen and (min-width: 414px) and (min-height: 736px){
+}
+/*
+@media screen and (min-width: 780px)and (min-height: 820px){
 
     #TextToConvert {
-        width: 142px;
+        font-size: 20px;
+        width: 250px;
+
     }
 
     #TextToCipherOrDecipher {
-        font-size:10px;
+        font-size:15px;
         height: 100px;
-        width: 100px; 
+        width: 150px; 
     }
-    
+
+    #descriptionFooter {
+        font-size:18px; 
+        height: 30px;
+        margin-top:430px;
+    }
+
     #buttonsAndOffset {        
-        margin-left: 1px;
-        margin-right: 5px;
+        font-size: 15px; 
+        width: 150px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
+
     #textResults {
-        font-size: 15px;
-        height: 200px;
-        width: 142px;
-        margin-left: 15px;
+        font-size: 20px;
+        width: 250px;
     }
     
     #TextoAMostrar{
-        font-size: 20px;
-        margin-right: 5px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    
-    #descriptionFooter {
-        font-size:20px; 
-        height: 30px;
-        margin-top: 430px;
-    }
-} 
+   
+}
 
-@media only screen and (min-width: 375px) and (min-height: 667px){
+@media screen and (min-width: 375px) and (min-height: 667px){
 
     body{
         background-size: 80%;
@@ -416,89 +374,146 @@ li {
     }
 } 
 
-
-@media only screen and (min-width: 780px)and (min-height: 820px){
+@media screen and (min-width: 414px) and (min-height: 736px){
 
     #TextToConvert {
-        font-size: 20px;
-        width: 250px;
-
+        width: 142px;
     }
 
     #TextToCipherOrDecipher {
-        font-size:15px;
+        font-size:10px;
         height: 100px;
-        width: 150px; 
+        width: 100px; 
     }
-
-    #descriptionFooter {
-        font-size:18px; 
-        height: 30px;
-        margin-top:430px;
-    }
-
+    
     #buttonsAndOffset {        
-        font-size: 15px; 
-        width: 150px;
-        margin-left: 45px;
-        margin-right: 45px;
+        margin-left: 1px;
+        margin-right: 5px;
     }
-
     #textResults {
-        font-size: 20px;
-        width: 250px;
+        font-size: 15px;
+        height: 200px;
+        width: 142px;
+        margin-left: 15px;
     }
     
     #TextoAMostrar{
-        font-size: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-   
-}
-
-@media only screen and (min-width: 780px) and (min-height: 1024px){
-
-    #TextToConvert {
         font-size: 20px;
-        width: 250px;
-
-    }
-
-    #TextToCipherOrDecipher {
-        font-size:15px;
-        height: 100px;
-        width: 150px; 
-    }
-
-    #descriptionFooter {
-        font-size:18px; 
-        height: 30px;
-        margin-top:600px;
-    }
-
-    #buttonsAndOffset {        
-        font-size: 15px; 
-        width: 150px;
-        margin-left: 45px;
-        margin-right: 45px;
-    }
-
-    #textResults {
-        font-size: 20px;
-        width: 250px;
+        margin-right: 5px;
     }
     
-    #TextoAMostrar{
-        font-size: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
+    #descriptionFooter {
+        font-size:20px; 
+        height: 30px;
+        margin-top: 430px;
     }
+} 
 
-}
+@media  screen and (min-width: 320px) and (min-height: 568px){
+
+    
+    li {
+        font-size: 10px;
+    }
+    
+    .titleInstructions{
+        font-size: 15px;
+    
+    }
+    
+    #InstructionButtoms{
+        height: 200px;
+        margin-top: -10px;
+        margin-bottom: -5px;
+    }
+    
+    #InstructionsCipherText{
+        height: 200px;
+        width: 200px;
+    }
+    
+    #InstructionsCipher{ 
+        height: 150px;
+        width: 150px;
+        margin-right: 5px;
+    }
+    .InstructionsQuestion{
+        font-size: 15px;  
+    }
+    
+    .InstructionsRefer{
+        font-size: 8px;
+    }
+    
+    #InstructionsDecipherText{
+        height: 200px;
+        width: 200px;
+    }
+    
+    #InstructionsDecipher{ 
+        height: 150px;
+        width: 150px;
+        margin-right: 5px;
+    }       
+        #TextToConvert {
+            font-size: 15px;
+            margin-right: 10px;
+            height: 200px;
+        }
+    
+        #TextToCipherOrDecipher {
+            font-size:10px;
+            height: 100px;
+            width: 80px; 
+        }
+    
+        #descriptionFooter {
+            font-size:10px; 
+            height: 30px;
+            margin-top:200px;
+        }
+    
+        #buttonsAndOffset {        
+            font-size: 10px; 
+            width:85px;
+            height: 200px;
+            margin-right: 5px;
+        }
+    
+        #buttonCipher {
+            font-size: 15px; 
+            height: 40px;
+            padding-left: 14px;
+            padding-right: 14px;
+            border-radius: 10px;   
+        }
+        
+        #buttonDecipher {
+            font-size: 15px;
+            height: 40px;
+            border-radius: 10px;     
+        }
+    
+        #nValue {
+            font-size: 15px;
+            height: 20px;
+            width: 40px; 
+        }
+    
+        #textResults {
+            font-size: 15px;
+            height: 200px;
+            margin-left: 5px;
+        }
+        
+        #TextoAMostrar{
+            font-size: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
 
 @media only screen and (min-width: 992px) {
 
 } 
-
 */
