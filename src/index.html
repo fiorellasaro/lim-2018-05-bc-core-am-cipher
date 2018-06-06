@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Courgette" rel="stylesheet">
-  
+  </head>
+
+  <body>
       <h1>¡Cifrado César!</h1>
 
       <section class="Instruction">
-
         <section class="InstructionsAndButton">
 
           <article class= "InstructionsText">
-            <h2 class="titleInstructions"> Instrucciones para cifrar: </h2>
+            <h2> Instrucciones para cifrar: </h2>
             <ol>
               <li>Escribe el mensaje que desees cifrar.</li>
               <li>En " # ", escribe el numero que quieras (mayor que cero).</li>
@@ -30,18 +28,18 @@
           </article>
 
           <button type="button" class="InstructionsButton">
-            <h2 class="InstructionsQuestion"> ¿Quieres cifrar? </h2>
-            <h3 class="InstructionsRefer"> Instrucciones aquí </h3>
+            <h2> ¿Quieres cifrar? </h2>
+            <h3> Instrucciones aquí </h3>
           </button>
 
-        </section>
+      </section>
       
        <section class="InstructionsAndButton">
 
           <article class= "InstructionsText">
-              <h2 class="titleInstructions"> Instrucciones para decifrar: </h2>
+              <h2> Instrucciones para descifrar: </h2>
               <ol>
-                <li>Escribe o copia el mensaje que desees decifrar.</li>
+                <li>Escribe o copia el mensaje que desees descifrar.</li>
                 <li>En " # ", escribe el numero que te indicaron para descifrar el mensaje.</li>
                 <li>Toca el botón "Descifrar" y ¡listo!, te aparecerá el mensaje descifrado.</li>
                 <li>¡Todo listo!.</li>
@@ -49,8 +47,8 @@
           </article>
 
           <button type="button"  class="InstructionsButton">
-            <h2 class="InstructionsQuestion"> ¿Quieres descifrar? </h2>
-            <h3 class="InstructionsRefer"> Instrucciones aquí </h3>
+            <h2> ¿Quieres descifrar? </h2>
+            <h3> Instrucciones aquí </h3>
           </button>
 
        </section>
@@ -59,24 +57,21 @@
 
   <main class="blockCipherAndDecifer"> 
     <section Class ="ConvertAndResults">
-      <h2 class="message">¡Escribe el mensaje!: </h2>
-      <textarea  name="CipherBoxText" id="TextToCipherOrDecipher"> </textarea>  
+      <h2>¡Escribe el mensaje!: </h2>
+      <textarea name="CipherBoxText"> </textarea>  
     </section>
 
     <section Class="buttonsAndOffset">
      <h2> # : </h2>
-     <input  type= "number" name="OffSet" id="nValue" min="1" value="1">
-     <br/>
-     <br/>
-     <button id="buttonCipher">Cifrar</button>   
-     <br/>
-     <br/>
-     <button id="buttonDecipher">Descifrar</button> 
+     <input  type= "number" name="OffSet" min="1" value="1">
+    </br>
+     <button>Cifrar</button>   
+     <button>Descifrar</button> 
     </section>  
     
     <section Class="ConvertAndResults">
-      <h2 class="message"> Resultado: </h2>
-      <p id= "TextoAMostrar">  </p>
+      <h2> Resultado: </h2>
+      <p> </p>
     </section>
   </main> 
    
